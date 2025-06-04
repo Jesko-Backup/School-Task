@@ -10,11 +10,16 @@ html {
 
 body {
 	min-height: 100%;
+	background-color: #f8f8f8;
 }
-
-li .Shoes-Logo {
+ul .Shoes-Logo {
 	height: 1.2rem;
 	width: 1.2rem;
+}
+
+a img .Shoes-Image {
+	background-position: center;
+	background-size: cover;
 }
 
 li .navbar-link:active {
